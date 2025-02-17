@@ -177,3 +177,40 @@ p {
         var(--color-primary)
     );
 }
+
+/****************************************************************************************
+* SKILLS SECTION
+****************************************************************************************/
+.skills {
+    background: var(--color-grey-10);
+}
+
+.skill {
+    padding: 2.5rem 0;
+    text-align: center;
+    transform: var(--transition);
+}
+
+.skill-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+    transition: var(--transition);
+    display: inline-block;
+    color: var(--color-primary);
+}
+
+.skill-text {
+    color: var(--color-grey-5);
+    max-width: 17rem;
+    margin: 0 auto;
+}
+
+.skill:hover {
+    background: var(--color-white);
+    cursor: pointer;
+    box-shadow: 0 2px var(--color-primary);
+}
+
+.skill:hover .skill-icon {
+    transform: translateY(-5px);
+}

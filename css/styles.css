@@ -523,3 +523,29 @@ p {
 /****************************************************************************************
 * FOOTER
 ****************************************************************************************/
+.footer {
+    background-color: #222;
+    text-align: center;
+}
+
+.social-icon {
+    color: var(--color-white);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.social-icon:hover {
+    color: var(--color-primary);
+}
+
+.footer-text {
+    margin-top: 1.25rem;
+    text-transform: uppercase;
+    color: var(--color-white);
+    font-weight: 400;
+    letter-spacing: var(--spacing);
+}
+
+.company {
+    color: var(--color-primary);
+}

@@ -173,10 +173,12 @@ p {
     background-color: var(--color-grey-10);
     box-shadow: 2px 0 2px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    /* hide navbar */
+    transform: translateX(-100%);
+    transition: var(--transition);
 }
 
 .showNav {
+    transform: translate(0);
 }
 
 .navbar-header {
